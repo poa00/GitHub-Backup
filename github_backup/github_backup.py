@@ -20,7 +20,7 @@ import getpass
 from datetime import datetime, timezone
 import time
 try: #PY3
-    from configparser import SafeConfigParser as ConfigParser
+    from configparser import ConfigParser
 except ImportError:
     from ConfigParser import SafeConfigParser as ConfigParser
 from argparse import ArgumentParser
